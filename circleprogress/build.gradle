@@ -24,6 +24,12 @@ android {
         }
     }
 
+    // 代码风格支持Java1.8
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
 }
 
 dependencies {

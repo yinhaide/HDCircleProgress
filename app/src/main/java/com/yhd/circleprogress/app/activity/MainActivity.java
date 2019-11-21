@@ -8,12 +8,12 @@ import com.de.rocket.bean.RecordBean;
 import com.de.rocket.bean.StatusBarBean;
 import com.de.rocket.ue.activity.RoActivity;
 import com.yhd.circleprogress.app.R;
-import com.yhd.circleprogress.app.frag.Frag_wave;
+import com.yhd.circleprogress.app.frag.Frag_circleprogress;
 
 public class MainActivity extends RoActivity {
 
     private Class[] roFragments = {
-            Frag_wave.class
+            Frag_circleprogress.class
     };
 
     @Override

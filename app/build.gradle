@@ -55,9 +55,9 @@ android {
             def buildType = variant.buildType.name
             def time = new Date().format("yyyyMMdd", TimeZone.getTimeZone("GMT+08:00"))
             if (variant.buildType.name == 'debug') {
-                outputFileName = "rocket_${versionName}_c${versionCode}_${buildType}.apk"
+                outputFileName = "circleprogress_${versionName}_c${versionCode}_${buildType}.apk"
             } else {
-                outputFileName = "rocket_${versionName}_${time}_${buildType}.apk"
+                outputFileName = "circleprogress_${versionName}_${time}_${buildType}.apk"
             }
         }
     }
